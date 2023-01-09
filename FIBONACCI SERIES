@@ -1,0 +1,18 @@
+import java.util.*;
+class Vishnu
+{ 
+public static void main(string args[])
+{   Scanner object= new Scanner(System.in);
+    System.out.print( "enter the num");
+     int n= object.nextInt();
+     int n1=0,n2=1,n3; //0112
+     while(n>0)
+     { n3=n1+n2;
+   System.out.print(n3);
+        n2=n1;
+        n1=n2;
+        n2=n3;
+      }
+  
+}
+}
